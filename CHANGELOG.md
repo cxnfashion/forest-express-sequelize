@@ -1,3 +1,94 @@
+# [6.5.0](https://github.com/ForestAdmin/forest-express-sequelize/compare/v6.4.2...v6.5.0) (2020-11-27)
+
+
+### Features
+
+* **smart actions:** endpoint that handle forms' load hooks ([0902ef4](https://github.com/ForestAdmin/forest-express-sequelize/commit/0902ef458abf41efb25f0dc024549702a50645fe))
+
+## [6.4.2](https://github.com/ForestAdmin/forest-express-sequelize/compare/v6.4.1...v6.4.2) (2020-11-26)
+
+
+### Bug Fixes
+
+* export error handler middleware ([#552](https://github.com/ForestAdmin/forest-express-sequelize/issues/552)) ([a87591b](https://github.com/ForestAdmin/forest-express-sequelize/commit/a87591b8d5cffc5041fedcb654be2fadfb6dd78f))
+
+## [6.4.1](https://github.com/ForestAdmin/forest-express-sequelize/compare/v6.4.0...v6.4.1) (2020-11-26)
+
+
+### Bug Fixes
+
+* always return primary keys of associated records ([#550](https://github.com/ForestAdmin/forest-express-sequelize/issues/550)) ([57bd84b](https://github.com/ForestAdmin/forest-express-sequelize/commit/57bd84bc992bbe5fd703b2e36c02bb431885535d))
+
+# [6.4.0](https://github.com/ForestAdmin/forest-express-sequelize/compare/v6.3.15...v6.4.0) (2020-11-17)
+
+
+### Features
+
+* **smart actions:** add hooks in schema file ([#542](https://github.com/ForestAdmin/forest-express-sequelize/issues/542)) ([f1cd375](https://github.com/ForestAdmin/forest-express-sequelize/commit/f1cd37585c90c5fe10be48ad6bb65ce8b0626387))
+
+## [6.3.15](https://github.com/ForestAdmin/forest-express-sequelize/compare/v6.3.14...v6.3.15) (2020-11-13)
+
+
+### Bug Fixes
+
+* don't compute smart fields when not requested on associated records ([#540](https://github.com/ForestAdmin/forest-express-sequelize/issues/540)) ([5c95163](https://github.com/ForestAdmin/forest-express-sequelize/commit/5c95163ddd5b94e1c74c623c9c66769116eab71b))
+
+## [6.3.14](https://github.com/ForestAdmin/forest-express-sequelize/compare/v6.3.13...v6.3.14) (2020-11-03)
+
+
+### Bug Fixes
+
+* request the right fields for belongsTo relationships with casing difference between DB and JS ([#530](https://github.com/ForestAdmin/forest-express-sequelize/issues/530)) ([84de297](https://github.com/ForestAdmin/forest-express-sequelize/commit/84de297a9c0278a86f768ec456940a50fd6647ab))
+
+## [6.3.13](https://github.com/ForestAdmin/forest-express-sequelize/compare/v6.3.12...v6.3.13) (2020-10-05)
+
+
+### Bug Fixes
+
+* fix an error when accessing tables with a hasOne relationship ([#512](https://github.com/ForestAdmin/forest-express-sequelize/issues/512)) ([bb2f51e](https://github.com/ForestAdmin/forest-express-sequelize/commit/bb2f51e8ed5db6b4fb4c2b57a6939882de789c03))
+
+## [6.3.12](https://github.com/ForestAdmin/forest-express-sequelize/compare/v6.3.11...v6.3.12) (2020-10-01)
+
+
+### Bug Fixes
+
+* **leaderboard chart:** fix query on many to many relationship ([#510](https://github.com/ForestAdmin/forest-express-sequelize/issues/510)) ([0e90750](https://github.com/ForestAdmin/forest-express-sequelize/commit/0e90750e7c16aca803019d8be5516853a4d43168))
+
+## [6.3.11](https://github.com/ForestAdmin/forest-express-sequelize/compare/v6.3.10...v6.3.11) (2020-09-09)
+
+
+### Bug Fixes
+
+* allow search on fields number ([#506](https://github.com/ForestAdmin/forest-express-sequelize/issues/506)) ([80fbf7c](https://github.com/ForestAdmin/forest-express-sequelize/commit/80fbf7ce887f3919f4b923a382d3d727d5d610c5))
+
+## [6.3.10](https://github.com/ForestAdmin/forest-express-sequelize/compare/v6.3.9...v6.3.10) (2020-09-08)
+
+
+### Bug Fixes
+
+* :bug: fix retrieved fields from the database when a smart field is used as a reference field ([#505](https://github.com/ForestAdmin/forest-express-sequelize/issues/505)) ([14286fb](https://github.com/ForestAdmin/forest-express-sequelize/commit/14286fb9e82bc0fce3a3c04fedf0844fb2836ff8))
+
+## [6.3.9](https://github.com/ForestAdmin/forest-express-sequelize/compare/v6.3.8...v6.3.9) (2020-09-04)
+
+
+### Bug Fixes
+
+* :bug: set primary keys as required if not generated ([#501](https://github.com/ForestAdmin/forest-express-sequelize/issues/501)) ([f977b37](https://github.com/ForestAdmin/forest-express-sequelize/commit/f977b3765c27202f9674cda5656dfc28be619ed3))
+
+## [6.3.8](https://github.com/ForestAdmin/forest-express-sequelize/compare/v6.3.7...v6.3.8) (2020-09-01)
+
+
+### Bug Fixes
+
+* :bug: fix a regression introduced by changes in the build ([#496](https://github.com/ForestAdmin/forest-express-sequelize/issues/496)) ([89d94fe](https://github.com/ForestAdmin/forest-express-sequelize/commit/89d94fe77efe3861750924f542b93b6a25810e58))
+
+## [6.3.7](https://github.com/ForestAdmin/forest-express-sequelize/compare/v6.3.6...v6.3.7) (2020-08-31)
+
+
+### Performance Improvements
+
+* :zap: only return ids of related records, not all fields ([#477](https://github.com/ForestAdmin/forest-express-sequelize/issues/477)) ([435c061](https://github.com/ForestAdmin/forest-express-sequelize/commit/435c061904ec534d4a3201730eb48c5e384be2b1))
+
 ## [6.3.6](https://github.com/ForestAdmin/forest-express-sequelize/compare/v6.3.5...v6.3.6) (2020-08-10)
 
 
